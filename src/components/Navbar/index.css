@@ -1,0 +1,77 @@
+.logo {
+    width: 5vw;
+    height: 8vh;
+    margin-left: 20px;
+    border-radius: 46%;
+  }
+  
+  .nav {
+    width: 100vw;
+    height: 10vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .navItems{
+    display: flex;
+    flex-direction: row;
+  
+    justify-content: flex-end;
+   
+  }
+
+  .text{
+    color:rgb(118, 85, 158);
+  padding: 20px;
+font-family: "roboto";
+    font-size: 18px;
+ 
+    font-weight: 800;
+
+  }
+
+    .logo {
+      width: 10vw;
+      height: 8vh;
+      margin-left: 20px;
+      border-radius: 50%;
+    }
+    
+    .nav {
+      width: 100vw;
+      height: 10vh;
+      background-color: transparent;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .navItems {
+      display: none;
+    }
+    
+    .text {
+      color: black;
+      padding: 20px;
+      font-family: "roboto";
+      font-size: 20px;
+      text-decoration: none; 
+      font-weight: 700;
+    }
+    
+    @media screen and (min-width: 768px) {
+      .logo {
+        width: 5vw;
+        height: 8vh;
+      }
+    
+      .navItems {
+        display: flex;
+        flex-direction: row;
+
+      }
+    }
+    
+    
